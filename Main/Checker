@@ -1,4 +1,4 @@
-if getgenv().settings[1] == true then
+if getgenv().serverip == true then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/rip2point/Acid/main/otherstuff/anomic/1',true))()
 else
   loadstring(game:HttpGet('https://raw.githubusercontent.com/rip2point/Acid/main/otherstuff/anomic/2',true))()
